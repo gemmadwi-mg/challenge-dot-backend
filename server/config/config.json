@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "gemmadwi",
+    "database": "newgame_db",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "gemmadwi",
+    "database": "newgame_db",
+    "host": "localhost",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "postgres",
+    "password": "gemmadwi",
+    "database": "game_db",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": 0,
+    "use_env_variable": "DATABASE_URL",
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
